@@ -1,0 +1,129 @@
+.fondoCuerpo{
+    background-color: rgb(147, 187, 227);
+    width: 90%;
+    margin-left: 5%;
+}
+
+.cabecera{
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+#tituloPrincipal{
+    color: rgb(254, 254, 254);
+    font-family: Verdana, Geneva, Tahoma;
+    letter-spacing: 3px;
+}
+
+.otrosTitulos{
+    color: black;
+    font-family: Verdana;
+}
+
+.contenedor{
+    background-color: rgb(103, 105, 105);
+    padding: 20px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#lateral{
+    max-width: 23%;
+    padding: 0px 5px;
+    float: right;
+    font-size: 14px;
+    color:rgb(11, 11, 11);
+    border: 2px solid rgb(218, 225, 225);
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+#seccion{
+    max-width: 70%;
+    display: inline-block;
+    margin-left: 5px;
+    padding-top: 0px;
+}
+
+#articulo{
+    color: rgb(14, 5, 177);
+    padding: 5px 15px;
+    text-align: justify;
+    font-family: arial;
+}
+
+.pie{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.parrafo{
+    /* font-style: italic; */
+    padding: 15px 5px;
+    /* font-size: small; */
+    text-align: center;
+}
+
+.logo{
+    width: 60px;
+}
+
+/* .imagen{
+    text-align: center;
+    max-width: 100%;
+} */
+
+#anchoVideo{
+    width: 100%;
+}
+
+#anchoIframe{
+    width: 100%;
+}
+
+span{
+    color:rgb(147, 187, 227);
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  
+    align-items: center;
+    /* justify-content: center; */
+    align-content: flex-end;
+    background: linear-gradient(to right,rgb(0 0 0/.5),rgb(0 0 0/.5)) ,url(imagenes/ba1.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+.wrap-texto{
+    color: #fff;
+    text-align: right;
+    width: -50%;
+    
+}
+.inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.inline-buttons {
+    text-align: right !important; /* cambia"Center" a "left" o "right" si quieres la que alineación sea a la izquierda o derecha */
+}
+.col-md-4{
+    background-color:rgb(129, 125, 125);
+    color: #fff;
+    
+}
+
+.botones{
+    display: inline-block;
+    /* font-size: 50%; */
+    width: 50%;
+   
+}
